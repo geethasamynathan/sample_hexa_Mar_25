@@ -1,0 +1,14 @@
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\bin\Debug\net8.0\ExceptionHandling_demo.exe
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\bin\Debug\net8.0\ExceptionHandling_demo.deps.json
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\bin\Debug\net8.0\ExceptionHandling_demo.runtimeconfig.json
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\bin\Debug\net8.0\ExceptionHandling_demo.dll
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\bin\Debug\net8.0\ExceptionHandling_demo.pdb
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.AssemblyInfoInputs.cache
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.AssemblyInfo.cs
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.csproj.CoreCompileInputs.cache
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.dll
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\refint\ExceptionHandling_demo.dll
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.pdb
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ExceptionHandling_demo.genruntimeconfig.cache
+C:\Personal\Hexa 10 Mar 25\Notes\Console Demos\ExceptionHandling_demo\ExceptionHandling_demo\obj\Debug\net8.0\ref\ExceptionHandling_demo.dll
