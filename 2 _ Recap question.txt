@@ -1,0 +1,158 @@
+1.What is Implicitly typed variable.
+
+2. Is C# Does support for switch statement or not.If Yes  mention the Datatype it cannot support
+
+3. What is mean by Array?
+
+4. List Types of Array?
+
+5. What are all types of loops available? Differenciate all types
+
+6. List out al operators available in C#
+
+7. int [] testArray=new int[] {354,677,78,45,788} ; what is the length (or) size of given array
+
+8. int [] testArray=new int []; is this correct syntax
+
+9. string [] studentarray=new string[5]; 
+	studentArray[0]="John";
+	What is the value of StudentArray[1]? 
+
+10. string[] fruits = { "Apple", "Banana", "Mango" }; is this the correct way to declare an array ?
+
+11. which class is the base class for all classes ?
+
+
+
+
+
+
+ 
+Day 3 
+
+1. What is the difference between ref and out parameters in C#? When would you use each?
+2. Explain optional parameters in C#.
+3. What are named parameters in C#, and how can they improve code readability?
+4. Can you combine default parameters and out parameters in a method?
+5. Is it possible to skip middle optional parameters?
+6. How do you call this method and print the result?
+   void GetCoordinates(out int x, out int y)
+{
+    x = 100;
+    y = 200;
+}
+7.  Design a method CalculateSalary that:
+Requires baseSalary
+
+Has optional bonus (default: 1000)
+
+Returns totalSalary via out
+
+Allows caller to skip bonus
+
+8. You are building a method that calculates the area and perimeter of a rectangle. Return both values. How would you write and use this method?
+
+9. You are designing a method that sends an email. It requires a recipient but allows optional subject and body. How can you implement this using optional and named parameters?
+
+10. You are writing a method to generate a user profile summary. If no name is provided, it defaults to "Guest". You also return a status using an out parameter. How would this look?
+11. You created a method to register a user with name, age, and city. Use named parameters to call the function in a different order than declared.
+12. Create a method to convert temperature from Celsius to Fahrenheit. If no value is passed, use 25°C. Also return the status of conversion using out
+
+
+
+Day 4
+
+1. what is inheritance?
+2. Types of inheritance
+3. Access specifiers ?
+4. What is mean by constructor?
+4. Types of constructor?
+5. How to call constructor?
+5. How constructor differs from Method?
+6. What is Copy constructor?
+7. constructor overloading and give an example for it
+8.Types of inheritance?
+9. Is C# will support for multiple inheritance or not?
+10. Can private members can inherited?
+11. What is the difference between private ,public ,protected Memebrs?
+12. Can derived class and base class object can access protected member functions outside of the class?
+13. What is Static Method?
+14. Difference b/w static and non-static methods?
+15. What is value type and reference type? Give an example for the same.
+
+16. can we create private constructor?
+17.Constructor Execution Order
+You have a base class Employee and a derived class Manager. Both classes have constructors. The Employee constructor prints "Employee Created" and the Manager constructor prints "Manager Created".
+class Employee
+{
+    public Employee()
+    {
+        Console.WriteLine("Employee Created");
+    }
+}
+
+class Manager : Employee
+{
+    public Manager()
+    {
+        Console.WriteLine("Manager Created");
+    }
+}
+What will be the output when the following line is executed?
+Manager mgr = new Manager();
+What will happen if you make the Employee constructor private?
+
+How would you explicitly call a parameterized constructor of the base class from the derived class?
+
+18.Consider the following classes:
+class Person
+{
+    public string Name = "Public Name";
+    private int age = 30;
+    protected string Gender = "Protected Gender";
+    internal string Nationality = "Internal Nationality";
+    protected internal string Status = "Protected Internal Status";
+    private protected string ID = "Private Protected ID";
+}
+
+class Student : Person
+{
+    public void ShowDetails()
+    {
+        Console.WriteLine(Name);              
+        // Console.WriteLine(age);          
+        Console.WriteLine(Gender);          
+        Console.WriteLine(Nationality);      
+        Console.WriteLine(Status);           
+        Console.WriteLine(ID);              
+    }
+}
+Which fields are accessible inside the Student class? Why are some inaccessible?
+
+
+What happens if Student is moved to a different assembly?
+
+How does changing private protected to protected affect access?
+
+
+19.You have a class Animal with a parameterized constructor and a class Dog that inherits from it:
+class Animal
+{
+    public Animal(string type)
+    {
+        Console.WriteLine($"Animal type: {type}");
+    }
+}
+
+class Dog : Animal
+{
+    public Dog() : base("Dog")
+    {
+        Console.WriteLine("Dog constructor");
+    }
+}
+What will be the output of the following?
+Dog d = new Dog();
+Can the base constructor be overloaded?
+
+What happens if you omit : base("Dog") in Dog class?
